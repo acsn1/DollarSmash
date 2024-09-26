@@ -8,4 +8,4 @@ Please, make sure not to repeat a duplicate issue by looking through the current
 /dollarsmash reload - Reloads the plugin. (permission: dollarsmash.admin) 
 
 # Default Configuration 
-You are able to find the default configuration file [Default Configuration](https://github.com/acsn1/DollarSmash/blob/main/config.yml).
+You are able to find the default configuration file [here](https://github.com/acsn1/DollarSmash/blob/main/config.yml).
