@@ -1,0 +1,22 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # Dollar Smash # # #                                                      #
+# Add runnable commands with chance to any block.                             #
+# Author: acsn1                                                               #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+# permission: '' # If you don't want this to be permission based.
+permission: 'dollarsmash.reward'
+
+# Specify the blocks, their materials, commands and chances.
+# If you wish to add more blocks just follow the format.
+# blocks: {} # If you don't want any special blocks at the moment.
+blocks:
+  example_1: # You can change this name to whatever you would like.
+    material: 'WOOD' # This is the item type that must be broken.
+    commands:
+      example_command_1: # You can change this name as well.
+        command: 'eco give %player% 100' # This is the command that is going to be ran.
+        chance: 50.0 # 50% chance of the command being ran once WOOD is broken.
+      example_command_2:
+        command: 'tell %player% Hello!'
+        chance: 10.0
